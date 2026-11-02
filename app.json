@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "LUCKY 4K AI",
+    "slug": "lucky-4k-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#080808",
+    "icon": "./assets/icon.png",
+    "splash": { "image": "./assets/icon.png", "resizeMode": "contain", "backgroundColor": "#080808" },
+    "android": {
+      "package": "com.lucky4k.ai",
+      "versionCode": 1,
+      "adaptiveIcon": { "foregroundImage": "./assets/icon.png", "backgroundColor": "#080808" }
+    },
+    "plugins": [
+      ["expo-media-library", { "savePhotosPermission": "Allow LUCKY 4K AI to save enhanced photos to your gallery.", "isAccessMediaLocationEnabled": false }],
+      ["expo-build-properties", { "android": { "usesCleartextTraffic": false } }]
+    ]
+  }
+}
